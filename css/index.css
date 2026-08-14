@@ -56,6 +56,16 @@ ol {
   margin: 0 auto;
 }
 
+/* utility styles */
+.text-gradient {
+  display: inline-block;
+  background: linear-gradient(90deg, #c6f1f7 0%, #f983e9 36%, #b877ff 74%, #c2e9cd 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
 /* component styles */
 /* global nav */
 /* mobile view */
@@ -301,5 +311,340 @@ ol {
   .nav-item-blog {
     flex: 0 0 192px;
     width: 192px;
+  }
+}
+
+/* main visual (header + hero) */
+/* mobile view */
+.main-visual {
+  position: relative;
+  width: 100%;
+  background: #0c0c0c url("../images/bg-main.png") center top / cover no-repeat;
+}
+
+/* hero section */
+/* mobile view */
+.hero-section {
+  position: relative;
+  width: 100%;
+  padding: 3rem 0 2.5rem;
+}
+
+.hero-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.hero-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.hero-year {
+  font-family: "Unbounded", sans-serif;
+  font-size: 1.6875rem;
+  gap: 0.875rem;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.hero-greeting {
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.hero-heading-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.hero-title-top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-wave {
+  display: inline-block;
+  align-self: flex-end;
+  margin-bottom: 0.25rem;
+  font-family: "Unbounded", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.2em;
+  white-space: nowrap;
+}
+
+.hero-title {
+  font-family: "Unbounded", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.hero-title-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hero-title-sub {
+  font-family: "Unbounded", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+.hero-tagline {
+  font-family: "Unbounded", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.hero-sparkle {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+}
+
+.hero-sparkle-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 216px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1.42;
+}
+
+/* anchor point section */
+/* mobile view */
+.anchor-point-section {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.anchor-list-desktop {
+  display: none;
+}
+
+.anchor-list-mobile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem 1rem;
+  width: 100%;
+}
+
+.anchor-link {
+  display: block;
+  width: 100%;
+  transition: opacity 0.2s;
+}
+
+.anchor-label {
+  display: block;
+  font-family: "Unbounded", sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  color: #ffffff;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+}
+
+.anchor-bar {
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  transition: background-color 0.2s;
+}
+
+.anchor-link:hover .anchor-label {
+  opacity: 1;
+}
+
+.anchor-link:hover .anchor-bar {
+  background-color: #ffffff;
+}
+
+/* hero section & anchor point section */
+/* desktop view (min-width: 768px) */
+@media screen and (min-width: 768px) {
+  /* main visual */
+  .main-visual {
+    background: #0c0c0c url("../images/bg-main.png") center top / cover no-repeat;
+  }
+
+  /* hero section */
+  .hero-section {
+    padding: 16.5rem 0 6rem;
+    background: transparent;
+  }
+
+  .hero-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .hero-left {
+    max-width: 850px;
+  }
+
+  .hero-badge {
+    gap: 1.75rem;
+  }
+
+  .hero-year {
+    font-size: 1.6875rem;
+    font-weight: 200;
+  }
+
+  .hero-greeting {
+    font-size: 0.75rem;
+    line-height: 1.35;
+  }
+
+  .hero-heading-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 5rem;
+  }
+
+  .hero-title-top {
+    position: relative;
+    display: inline-flex;
+    width: max-content;
+  }
+
+  .hero-wave {
+    display: inline-block;
+    position: absolute;
+    top: -1.35rem;
+    right: 0.25rem;
+    margin: 0;
+    font-family: "Unbounded", sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.2em;
+    white-space: nowrap;
+  }
+
+  .hero-title {
+    font-size: 3.75rem;
+    font-weight: 300;
+    line-height: 1.05;
+  }
+
+  .hero-title-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.5rem;
+  }
+
+  .hero-title-sub {
+    font-size: 3.75rem;
+    font-weight: 300;
+    line-height: 1.05;
+  }
+
+  .hero-tagline {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.35;
+    color: #ffffff;
+  }
+
+  .hero-right {
+    width: 216px;
+    max-width: 216px;
+    padding-bottom: 0.5rem;
+  }
+
+  .hero-sparkle {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-description {
+    width: 216px;
+    max-width: 216px;
+    font-size: 0.875rem;
+    line-height: 1.42;
+  }
+
+  /* anchor point section */
+  .anchor-point-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 192px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  .anchor-list-mobile {
+    display: none;
+  }
+
+  .anchor-list-desktop {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    width: 100%;
+    max-width: 1262px;
+    margin: 0 auto;
+  }
+
+  .anchor-label {
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+
+  .anchor-bar {
+    height: 2px;
+    margin-top: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.4);
   }
 }

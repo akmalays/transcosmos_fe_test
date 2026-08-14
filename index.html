@@ -6,53 +6,143 @@
     <title>nur akmal ays</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Unbounded:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <!-- top nav -->
-    <header class="header">
-      <div class="container">
-        <div class="global-nav global-nav-top">
-          <!-- Top Bar / Brand -->
-          <div class="global-nav-brand">
-            <a href="./" class="global-nav-logo">
-              <img src="images/star.png" alt="star" class="global-nav-star" />
-              <span class="global-nav-name">Influenzailla</span>
-            </a>
-            <p class="global-nav-tagline">bespoke design and marketing services</p>
-          </div>
-          <!-- Mobile Menu Button -->
-          <button type="button" class="btn-menu" id="js-btn-menu" aria-label="Toggle menu" aria-expanded="false">MENU</button>
-          <!-- Desktop Grid Menu & Mobile Drawer -->
-          <nav class="global-nav-menu" id="js-global-nav">
-            <div class="global-nav-row">
-              <a href="#about-us" class="global-nav-link nav-item-about">ABOUT</a>
-              <a href="#services" class="global-nav-link nav-item-services">SERVISES</a>
-              <a href="#cases" class="global-nav-link nav-item-cases">CASES</a>
-              <a href="#team" class="global-nav-link nav-item-team">TEAM</a>
-              <a href="#lang" class="global-nav-link nav-item-lang global-nav-lang" aria-label="Language">
-                <img src="images/globe.png" alt="globe" class="global-nav-globe" />
+    <!-- main section -->
+    <div class="main-visual">
+      <!-- top nav -->
+      <header class="header">
+        <div class="container">
+          <div class="global-nav global-nav-top">
+            <!-- identity brand-->
+            <div class="global-nav-brand">
+              <a href="./" class="global-nav-logo">
+                <img src="images/star.png" alt="star" class="global-nav-star" />
+                <span class="global-nav-name">Influenzailla</span>
               </a>
+              <p class="global-nav-tagline">bespoke design and marketing services</p>
             </div>
-            <div class="global-nav-row">
-              <a href="#boost-program" class="global-nav-link nav-item-boost">BOOST PROGRAM</a>
-              <a href="#products" class="global-nav-link nav-item-products">PRODUCTS</a>
-              <a href="#book" class="global-nav-link nav-item-book">BOOK</a>
-              <a href="#blog" class="global-nav-link nav-item-blog">BLOG</a>
-            </div>
-          </nav>
+            <!-- mobile menu -->
+            <button type="button" class="btn-menu" id="js-btn-menu" aria-label="Toggle menu" aria-expanded="false">MENU</button>
+            <!-- ddesktop grid menu & mobile drawer-->
+            <nav class="global-nav-menu" id="js-global-nav">
+              <div class="global-nav-row">
+                <a href="#about-us" class="global-nav-link nav-item-about">ABOUT</a>
+                <a href="#services" class="global-nav-link nav-item-services">SERVISES</a>
+                <a href="#cases" class="global-nav-link nav-item-cases">CASES</a>
+                <a href="#team" class="global-nav-link nav-item-team">TEAM</a>
+                <a href="#lang" class="global-nav-link nav-item-lang global-nav-lang" aria-label="Language">
+                  <img src="images/globe.png" alt="globe" class="global-nav-globe" />
+                </a>
+              </div>
+              <div class="global-nav-row">
+                <a href="#boost-program" class="global-nav-link nav-item-boost">BOOST PROGRAM</a>
+                <a href="#products" class="global-nav-link nav-item-products">PRODUCTS</a>
+                <a href="#book" class="global-nav-link nav-item-book">BOOK</a>
+                <a href="#blog" class="global-nav-link nav-item-blog">BLOG</a>
+              </div>
+            </nav>
+          </div>
         </div>
-      </div>
-    </header>
-    <!-- hero section -->
-    <section class="hero-section">
-      <div class="container"></div>
-    </section>
-    <!-- anchor point section -->
-    <section class="anchor-point-section">
-      <div class="container"></div>
-    </section>
+      </header>
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-left">
+              <div class="hero-badge">
+                <span class="hero-year text-gradient">2023</span>
+                <span class="hero-greeting text-gradient"
+                  >hi there, let's <br />
+                  get started!</span
+                >
+              </div>
+              <div class="hero-heading-group">
+                <div class="hero-title-top">
+                  <span class="hero-wave text-gradient" aria-hidden="true">˜˜˜˜˜˜˜˜˜˜</span>
+                  <h1 class="hero-title text-gradient">Influence your</h1>
+                </div>
+                <div class="hero-title-bottom">
+                  <span class="hero-title-sub text-gradient">audience</span>
+                  <p class="hero-tagline">boost your brand with our<br />marketing expertise</p>
+                </div>
+              </div>
+            </div>
+            <div class="hero-right">
+              <div class="hero-sparkle" aria-hidden="true">
+                <img src="images/star-01.png" alt="star" class="hero-sparkle-img" />
+              </div>
+              <p class="hero-description text-gradient">
+                We believe in the power of digital media to transform businesses and connect them with their audiences in meaningful ways.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- anchor section -->
+      <section class="anchor-point-section">
+        <div class="container">
+          <!-- desktop anhchor -->
+          <ul class="anchor-list anchor-list-desktop">
+            <li class="anchor-item">
+              <a href="#about-us" class="anchor-link">
+                <span class="anchor-label text-gradient">About us</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+            <li class="anchor-item">
+              <a href="#expertise" class="anchor-link">
+                <span class="anchor-label text-gradient">Expertise</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+            <li class="anchor-item">
+              <a href="#get-started" class="anchor-link">
+                <span class="anchor-label text-gradient">Get started</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+            <li class="anchor-item">
+              <a href="#what-we-do" class="anchor-link">
+                <span class="anchor-label text-gradient">What we do</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+          </ul>
+          <!-- mobile anchor-->
+          <ul class="anchor-list anchor-list-mobile">
+            <li class="anchor-item">
+              <a href="#branding" class="anchor-link">
+                <span class="anchor-label">digital branding</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+            <li class="anchor-item">
+              <a href="#influence" class="anchor-link">
+                <span class="anchor-label">influence marketing</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+            <li class="anchor-item">
+              <a href="#content" class="anchor-link">
+                <span class="anchor-label">content creation</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+            <li class="anchor-item">
+              <a href="#development" class="anchor-link">
+                <span class="anchor-label">design/development</span>
+                <span class="anchor-bar"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
     <!-- about us section -->
     <section class="about-us-section">
       <div class="container"></div>
