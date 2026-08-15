@@ -17,7 +17,7 @@ html {
 body {
   background-color: #0b0b0b;
   font-family: "Inter", "Unbounded", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
   -webkit-font-smoothing: antialiased;
@@ -112,7 +112,7 @@ ol {
 
 .global-nav-name {
   font-family: "Unbounded", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 700;
   color: #ffffff;
 }
@@ -135,7 +135,7 @@ ol {
   width: 72px;
   padding: 0.75rem 0.5rem;
   font-family: "Unbounded", sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 600;
   color: #ffffff;
   cursor: pointer;
@@ -166,7 +166,7 @@ ol {
   padding: 0.75rem 1rem;
   border-bottom: 2px solid #ffffff;
   font-family: "Inter", sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: 0;
@@ -259,7 +259,7 @@ ol {
     padding: 0 0.5rem;
     border-right: 2px solid #ffffff;
     border-bottom: none;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 500;
   }
 
@@ -352,7 +352,7 @@ ol {
 
 .hero-year {
   font-family: "Unbounded", sans-serif;
-  font-size: 1.6875rem;
+  font-size: 27px;
   gap: 0.875rem;
   font-weight: 200;
   line-height: 1;
@@ -360,7 +360,7 @@ ol {
 
 .hero-greeting {
   font-family: "Inter", sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.25;
 }
@@ -383,7 +383,7 @@ ol {
   align-self: flex-end;
   margin-bottom: 0.25rem;
   font-family: "Unbounded", sans-serif;
-  font-size: 1.75rem;
+  font-size: 28px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.2em;
@@ -392,7 +392,7 @@ ol {
 
 .hero-title {
   font-family: "Unbounded", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1.1;
 }
@@ -405,14 +405,14 @@ ol {
 
 .hero-title-sub {
   font-family: "Unbounded", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1.1;
 }
 
 .hero-tagline {
   font-family: "Unbounded", sans-serif;
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-weight: 400;
   line-height: 1.4;
   color: #ffffff;
@@ -441,7 +441,7 @@ ol {
   width: 100%;
   max-width: 216px;
   font-family: "Inter", sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
   line-height: 1.42;
 }
 
@@ -475,7 +475,7 @@ ol {
 .anchor-label {
   display: block;
   font-family: "Unbounded", sans-serif;
-  font-size: 0.6875rem;
+  font-size: 11px;
   font-weight: 500;
   color: #ffffff;
   opacity: 0.75;
@@ -537,7 +537,7 @@ ol {
 .about-title {
   width: 100%;
   font-family: "Unbounded", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -546,7 +546,7 @@ ol {
   display: inline-block;
   margin-top: 0.5rem;
   font-family: "Unbounded", sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.2em;
@@ -571,7 +571,7 @@ ol {
 
 .about-text {
   font-family: "Inter", sans-serif;
-  font-size: 0.8125rem;
+  font-size: 13px;
   line-height: 1.45;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -610,13 +610,13 @@ ol {
 
 .about-globe-since {
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .about-globe-year {
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1;
 }
@@ -661,7 +661,7 @@ ol {
 
 .about-card-num {
   font-family: "Unbounded", sans-serif;
-  font-size: 2.25rem;
+  font-size: 36px;
   font-weight: 300;
   line-height: 1;
   color: #ffffff;
@@ -670,7 +670,7 @@ ol {
 .about-card-desc {
   max-width: 290px;
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.45;
   color: rgba(255, 255, 255, 0.85);
 }
@@ -697,7 +697,7 @@ ol {
   display: inline-block;
   margin-bottom: 0.5rem;
   font-family: "Unbounded", sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.2em;
@@ -706,7 +706,7 @@ ol {
 
 .expertise-title {
   font-family: "Unbounded", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -725,7 +725,7 @@ ol {
 
 .expertise-location {
   font-family: "Unbounded", sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1;
 }
@@ -762,7 +762,7 @@ ol {
 
 .expertise-text {
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -791,7 +791,7 @@ ol {
   background: transparent;
   opacity: 0.25;
   font-family: "Unbounded", sans-serif;
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1;
   color: #ffffff;
@@ -840,7 +840,7 @@ ol {
 .expertise-card-text {
   max-width: 320px;
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.45;
   color: rgba(255, 255, 255, 0.85);
 }
@@ -876,7 +876,7 @@ ol {
 
 .get-started-greeting {
   font-family: "Inter", sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
   line-height: 1.35;
 }
 
@@ -896,7 +896,7 @@ ol {
   display: inline-block;
   margin-bottom: 0.5rem;
   font-family: "Unbounded", sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.2em;
@@ -905,7 +905,7 @@ ol {
 
 .get-started-title {
   font-family: "Unbounded", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -916,7 +916,7 @@ ol {
 
 .get-started-text {
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.5;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -984,7 +984,7 @@ ol {
   display: inline-block;
   margin-bottom: 0.5rem;
   font-family: "Unbounded", sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1;
   letter-spacing: -0.2em;
@@ -993,7 +993,7 @@ ol {
 
 .what-we-do-title {
   font-family: "Unbounded", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -1049,7 +1049,7 @@ ol {
 
 .slider-tag {
   font-family: "Inter", sans-serif;
-  font-size: 0.75rem;
+  font-size: 12px;
   line-height: 1;
 }
 
@@ -1061,7 +1061,7 @@ ol {
 
 .slider-title {
   font-family: "Unbounded", sans-serif;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 300;
   line-height: 1.2;
   color: #ffffff;
@@ -1070,7 +1070,7 @@ ol {
 .slider-desc {
   max-width: 290px;
   font-family: "Inter", sans-serif;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 1.45;
   color: #ffffff;
 }
@@ -1078,47 +1078,70 @@ ol {
 .slider-controls-wrap {
   display: flex;
   justify-content: center;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
 }
 
 .slider-controls {
   display: flex;
   align-items: center;
-  gap: 1rem;
-  padding: 0.5rem 1rem;
-  border: 1px solid rgba(245, 158, 11, 0.7);
-  border-radius: 2px;
+  justify-content: center;
+  gap: 2.25rem;
+  border: none;
+  background-color: transparent;
 }
 
 .slider-arrow {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 48px;
+  height: 48px;
   padding: 0;
   border: none;
   background: transparent;
   color: #ffffff;
   cursor: pointer;
-  transition:
-    opacity 0.2s,
-    color 0.2s;
+  transition: color 0.2s;
 }
 
 .slider-arrow:hover {
   color: #f59e0b;
 }
 
+.slider-arrow.slider-prev::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-left: 2px solid #f59e0b;
+  border-top: 2px solid #f59e0b;
+  border-bottom: 2px solid #f59e0b;
+  border-right: none;
+  mask-image: linear-gradient(to right, #000 45%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, #000 45%, transparent 100%);
+}
+
+.slider-arrow.slider-next::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-right: 2px solid #f59e0b;
+  border-top: 2px solid #f59e0b;
+  border-bottom: 2px solid #f59e0b;
+  border-left: none;
+  mask-image: linear-gradient(to left, #000 45%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to left, #000 45%, transparent 100%);
+}
+
 .slider-dots {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.25rem;
 }
 
 .slider-dot {
-  width: 8px;
-  height: 8px;
+  width: 15px;
+  height: 15px;
   padding: 0;
   border: none;
   border-radius: 50%;
@@ -1131,14 +1154,13 @@ ol {
 
 .slider-dot.active {
   background-color: #f59e0b;
-  transform: scale(1.15);
 }
 
 /* footer section */
 /* mobile view */
 .footer {
   width: 100%;
-  padding: 4rem 0 5rem;
+  padding: 2.5rem 0 4rem;
   background-color: #0c0c0c;
 }
 
@@ -1181,12 +1203,12 @@ ol {
   }
 
   .hero-year {
-    font-size: 1.6875rem;
+    font-size: 27px;
     font-weight: 200;
   }
 
   .hero-greeting {
-    font-size: 0.75rem;
+    font-size: 12px;
     line-height: 1.35;
   }
 
@@ -1209,7 +1231,7 @@ ol {
     top: -0.5rem;
     margin: 0;
     font-family: "Unbounded", sans-serif;
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 300;
     line-height: 1;
     letter-spacing: -0.2em;
@@ -1217,7 +1239,7 @@ ol {
   }
 
   .hero-title {
-    font-size: 3.75rem;
+    font-size: 60px;
     font-weight: 300;
     line-height: 1.05;
   }
@@ -1230,13 +1252,13 @@ ol {
   }
 
   .hero-title-sub {
-    font-size: 3.75rem;
+    font-size: 60px;
     font-weight: 300;
     line-height: 1.05;
   }
 
   .hero-tagline {
-    font-size: 0.9375rem;
+    font-size: 15px;
     font-weight: 400;
     line-height: 1.35;
     color: #ffffff;
@@ -1257,7 +1279,7 @@ ol {
   .hero-description {
     width: 216px;
     max-width: 216px;
-    font-size: 0.875rem;
+    font-size: 14px;
     line-height: 1.42;
   }
 
@@ -1290,7 +1312,7 @@ ol {
   }
 
   .anchor-label {
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 500;
     opacity: 0.8;
   }
@@ -1323,7 +1345,7 @@ ol {
     grid-row: 1;
     align-self: end;
     margin-bottom: 0.75rem;
-    font-size: 0.8125rem;
+    font-size: 13px;
   }
 
   .about-middle-top {
@@ -1351,7 +1373,7 @@ ol {
     max-width: 710px;
     height: 134px;
     font-family: "Unbounded", sans-serif;
-    font-size: 3.375rem;
+    font-size: 54px;
     font-weight: 300;
     line-height: 1.24;
   }
@@ -1360,7 +1382,7 @@ ol {
     display: block;
     width: fit-content;
     margin-top: 0.5rem;
-    font-size: 2.25rem;
+    font-size: 36px;
     letter-spacing: -0.2em;
   }
 
@@ -1393,7 +1415,7 @@ ol {
   }
 
   .about-text {
-    font-size: 0.875rem;
+    font-size: 14px;
     line-height: 1.45;
   }
 
@@ -1436,14 +1458,14 @@ ol {
   }
 
   .about-card-num {
-    font-size: 2.5rem;
+    font-size: 40px;
     line-height: 1;
     color: #ffffff;
   }
 
   .about-card-desc {
     max-width: 290px;
-    font-size: 0.875rem;
+    font-size: 14px;
     line-height: 1.45;
   }
 
@@ -1466,12 +1488,12 @@ ol {
     top: -0.75rem;
     left: 31rem;
     margin-bottom: 0;
-    font-size: 3.25rem;
+    font-size: 52px;
     letter-spacing: -0.2em;
   }
 
   .expertise-title {
-    font-size: 3.375rem;
+    font-size: 54px;
     font-weight: 300;
     line-height: 1.2;
   }
@@ -1544,7 +1566,7 @@ ol {
   .expertise-tab {
     height: 100%;
     border-right: 2px solid #ffffff;
-    font-size: 1.875rem;
+    font-size: 30px;
   }
 
   .expertise-panel {
@@ -1572,7 +1594,7 @@ ol {
 
   .expertise-card-text {
     max-width: 320px;
-    font-size: 0.875rem;
+    font-size: 14px;
   }
 
   .expertise-bottom-desc {
@@ -1616,7 +1638,7 @@ ol {
 
   .get-started-greeting {
     font-family: "Inter", sans-serif;
-    font-size: 0.75rem;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.3;
   }
@@ -1639,12 +1661,12 @@ ol {
     top: -0.5rem;
     left: 19.5rem;
     margin-bottom: 0;
-    font-size: 2.25rem;
+    font-size: 36px;
     letter-spacing: -0.2em;
   }
 
   .get-started-title {
-    font-size: 3.375rem;
+    font-size: 54px;
     font-weight: 300;
     line-height: 1.2;
   }
@@ -1698,7 +1720,7 @@ ol {
 
   /* what we do section */
   .what-we-do-section {
-    padding: 8rem 0 7rem;
+    padding: 8rem 0 3.5rem;
   }
 
   .what-we-do-header {
@@ -1715,12 +1737,12 @@ ol {
     top: -0.5rem;
     left: 24rem;
     margin-bottom: 0;
-    font-size: 2.25rem;
+    font-size: 36px;
     letter-spacing: -0.2em;
   }
 
   .what-we-do-title {
-    font-size: 3.375rem;
+    font-size: 54px;
     font-weight: 300;
     line-height: 1.2;
   }
@@ -1735,30 +1757,41 @@ ol {
   .slider-card {
     flex: 0 0 624px;
     width: 624px;
-    height: 289px;
-    min-height: 289px;
-    padding: 2.75rem 3rem 2.5rem;
+    height: 337px;
+    min-height: 337px;
+    padding: 2.75rem 3.5rem 3rem;
   }
 
   .slider-tag {
-    font-size: 0.8125rem;
+    font-size: 13px;
+  }
+
+  .slider-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
   }
 
   .slider-title {
-    font-size: 1.875rem;
+    min-height: 92px;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1.15;
   }
 
   .slider-desc {
     max-width: 320px;
-    font-size: 0.875rem;
+    font-size: 14px;
+    line-height: 1.5;
   }
 
   .slider-controls-wrap {
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
   }
+
   /* footer section */
   .footer {
-    padding: 6rem 0 6rem;
+    padding: 2.5rem 0 5rem;
   }
 
   .global-nav-footer .global-nav-brand {
