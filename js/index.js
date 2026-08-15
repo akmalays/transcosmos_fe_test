@@ -12,24 +12,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // expertise tabs interaction
   const expertiseTabs = document.querySelectorAll(".expertise-tab");
+  const expertisePanels = document.querySelectorAll(".expertise-panel");
   if (expertiseTabs.length > 0) {
     expertiseTabs.forEach(function (tab) {
       tab.addEventListener("click", function () {
+        const targetTab = this.getAttribute("data-tab");
+
         expertiseTabs.forEach(function (t) {
           t.classList.remove("active");
           t.setAttribute("aria-selected", "false");
-          const span = t.querySelector("span");
-          if (span) {
-            span.classList.remove("text-gradient");
-          }
         });
 
         this.classList.add("active");
         this.setAttribute("aria-selected", "true");
-        const activeSpan = this.querySelector("span");
-        if (activeSpan) {
-          activeSpan.classList.add("text-gradient");
-        }
+
+        expertisePanels.forEach(function (panel) {
+          if (panel.id === `panel-${targetTab}`) {
+            panel.classList.add("active");
+          } else {
+            panel.classList.remove("active");
+          }
+        });
       });
     });
   }
@@ -134,6 +137,17 @@ document.addEventListener("DOMContentLoaded", function () {
         link.classList.add("text-gradient");
       }
     });
+
+    // replace star and globe icons with gradient versions in footer
+    const footerStar = footerNav.querySelector(".global-nav-star");
+    if (footerStar) {
+      footerStar.src = "images/star-gradient.png";
+    }
+
+    const footerGlobe = footerNav.querySelector(".global-nav-globe");
+    if (footerGlobe) {
+      footerGlobe.src = "images/vector-gradient.png";
+    }
 
     footerTarget.appendChild(footerNav);
   }
