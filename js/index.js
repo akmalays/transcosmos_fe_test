@@ -6,7 +6,21 @@ document.addEventListener("DOMContentLoaded", function () {
   if (btnMenu && globalNav) {
     btnMenu.addEventListener("click", function () {
       const isOpen = globalNav.classList.toggle("is-open");
+      document.body.classList.toggle("menu-open", isOpen);
       btnMenu.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      btnMenu.textContent = isOpen ? "Close" : "MENU";
+    });
+
+    const mobileNavLinks = globalNav.querySelectorAll(".global-nav-link");
+    mobileNavLinks.forEach(function (link) {
+      link.addEventListener("click", function () {
+        if (window.innerWidth < 768) {
+          globalNav.classList.remove("is-open");
+          document.body.classList.remove("menu-open");
+          btnMenu.setAttribute("aria-expanded", "false");
+          btnMenu.textContent = "MENU";
+        }
+      });
     });
   }
 
@@ -97,58 +111,5 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("resize", function () {
       updateSlider(currentIndex);
     });
-  }
-
-  // footer navbar clone
-  const topNav = document.querySelector(".global-nav-top");
-  const footerTarget = document.getElementById("js-footer-nav");
-  if (topNav && footerTarget) {
-    const footerNav = topNav.cloneNode(true);
-    footerNav.classList.remove("global-nav-top");
-    footerNav.classList.add("global-nav-footer");
-
-    // adjust menu element id and display in footer
-    const footerBtnMenu = footerNav.querySelector(".btn-menu");
-    if (footerBtnMenu) {
-      footerBtnMenu.remove();
-    }
-
-    const footerMenu = footerNav.querySelector(".global-nav-menu");
-    if (footerMenu) {
-      footerMenu.removeAttribute("id");
-      footerMenu.classList.add("is-footer");
-    }
-
-    // add text-gradient class to brand name and tagline
-    const footerName = footerNav.querySelector(".global-nav-name");
-    if (footerName) {
-      footerName.classList.add("text-gradient");
-    }
-
-    const footerTagline = footerNav.querySelector(".global-nav-tagline");
-    if (footerTagline) {
-      footerTagline.classList.add("text-gradient");
-    }
-
-    // add text-gradient class to all navigation links
-    const footerLinks = footerNav.querySelectorAll(".global-nav-link");
-    footerLinks.forEach(function (link) {
-      if (!link.classList.contains("global-nav-lang")) {
-        link.classList.add("text-gradient");
-      }
-    });
-
-    // replace star and globe icons with gradient versions in footer
-    const footerStar = footerNav.querySelector(".global-nav-star");
-    if (footerStar) {
-      footerStar.src = "images/star-gradient.png";
-    }
-
-    const footerGlobe = footerNav.querySelector(".global-nav-globe");
-    if (footerGlobe) {
-      footerGlobe.src = "images/vector-gradient.png";
-    }
-
-    footerTarget.appendChild(footerNav);
   }
 });
